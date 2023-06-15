@@ -46,7 +46,7 @@ Be sure the SQLite database file named "car_management.db" is in the same direct
 
 Execute the script using Python:
 
-``` main.py ```
+``` python3 main.py ```
 
 
 The main window of the Car Management System will open, displaying a combobox with a list of cars. Select a car from the list to view its details.
