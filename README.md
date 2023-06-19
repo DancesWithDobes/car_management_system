@@ -14,11 +14,11 @@ The Car Management System consists of the following main components:
 
 
 
-**MaintenanceDialog:** This dialog allows the user to add and remove maintenance items for a specific car. It displays a list of existing maintenance items and provides buttons for adding new items and removing selected items.
+**MaintenanceDialog:** This dialog displays a list of existing maintenance items and provides a button for removing selected items.
 
 
 
-**IncidentsDialog:** This dialog allows the user to add and remove incidents for a specific car. It displays a list of existing incidents and provides buttons for adding new incidents and removing selected incidents.
+**IncidentsDialog:** This dialog displays a list of existing incidents and provides a buttons for removing selected incidents.
 
 
 
@@ -26,11 +26,13 @@ The Car Management System consists of the following main components:
 
 ## Screenshot
 
-![image](https://github.com/DancesWithDobes/vehicle_task_manager/assets/69741804/b8302562-1922-4e67-b81c-4945d600f794)
+![image](https://github.com/DancesWithDobes/car_management_system/assets/69741804/1060949e-b856-4b68-a891-50b8cfffca49)
 
 
+![image](https://github.com/DancesWithDobes/car_management_system/assets/69741804/6844cc40-cc5e-4050-8397-9c80e49764f3)
 
 
+![image](https://github.com/DancesWithDobes/car_management_system/assets/69741804/e8946560-56e7-4458-9740-28c5c87e5848)
 
 ## Usage
 
@@ -52,10 +54,16 @@ Execute the script using Python:
 The main window of the Car Management System will open, displaying a combobox with a list of cars. Select a car from the list to view its details.
 
 
-Click the "Manage Maintenance" button to open the Maintenance dialog. In this dialog, you can add new maintenance items and remove existing items for the selected car.
+Double clicking on a car will open both the Maintenance dialog and Incidents diaglog in sequence. In these dialogs, you can remove existing items for the selected car.
 
 
-Click the "Manage Incidents" button to open the Incidents dialog. In this dialog, you can add new incidents and remove existing incidents for the selected car.
+Click the "Add Maintenamce" or "Add Incident" buttons on the main screen to add maintenance or incidents, respectively. Be sure to have the whole role highlighted. A good way to do so, is clicking the number on the far left. This will ensure you won't trigger the maintenance or incidence pop-ups to trigger.
+
+Click "Add vehicle" to add a vehicle to the list. 
+
+To remove a vehicle, click the "Remove Vehicle" button when the row is highlighted. Again, clicking the numbers on the far left is the best way to highlight the row.
+
+
 
 
 Close the dialogs and main window to exit the application.
